@@ -23,7 +23,8 @@ The Grammar Error Correction Application is a web-based system that detects and 
 * JFLEG Dataset
 * Machine Learning Evaluation Metrics
 ## Project Structure
-```grammar-correction-app/
+```
+grammar-correction-app/
 
 ── app.py
 ── grammar_model.py
@@ -39,7 +40,8 @@ The Grammar Error Correction Application is a web-based system that detects and 
 ── jfleg/
    ──correct.txt
    ──corrected_by_model.txt
-   ──original.txt...
+   ──original.txt
+...
 
 ## Installation Instructions
 * Create Virtual Environment
