@@ -1,4 +1,4 @@
-### Grammar Error Correction Application (Flask + Python)
+# Grammar Error Correction Application (Flask + Python)
 ## Project Overview
 
 The Grammar Error Correction Application is a web-based system that detects and corrects grammatical errors in English text. The application allows users to enter text manually or upload a text file for batch grammar correction. The system uses Python, Flask, and a grammar correction library to process text and return corrected output.
@@ -26,21 +26,21 @@ The Grammar Error Correction Application is a web-based system that detects and 
 ```
 grammar-correction-app/
 
-── app.py
-── grammar_model.py
-── evaluator.py
-── corpus.txt
-── requirements.txt
-── templates/
-   ── index.html
-── static/
-   ── script.js
-── uploads/
-── corrected/
-── jfleg/
-   ──correct.txt
-   ──corrected_by_model.txt
-   ──original.txt
+├── app.py
+├── grammar_model.py
+├── evaluator.py
+├── corpus.txt
+├── requirements.txt
+├── templates/
+│   └── index.html
+├── static/
+│   └── script.js
+├── uploads/
+├── corrected/
+├── jfleg/
+   └──correct.txt
+   └──corrected_by_model.txt
+   └──original.txt
 ```
 
 ## Installation Instructions
@@ -70,20 +70,23 @@ http://127.0.0.1:5000
 4. Download the corrected file
 
 ## Example Input
+```
 i are a student.
 she go to school yesterday.
 he have a car.
 they is playing.
-
+```
 ## Example Output
+```
 I am a student.
 She went to school yesterday.
 He has a car.
 They are playing.
+```
 
 ## Evaluation Metrics
 
-# The system can be evaluated using:
+### The system can be evaluated using:
 * Accuracy
 * Precision
 * Recall
