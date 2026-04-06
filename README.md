@@ -41,7 +41,7 @@ grammar-correction-app/
    ──correct.txt
    ──corrected_by_model.txt
    ──original.txt
-...
+```
 
 ## Installation Instructions
 * Create Virtual Environment
