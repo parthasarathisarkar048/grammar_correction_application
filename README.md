@@ -78,10 +78,10 @@ I am a student.
 She went to school yesterday.
 He has a car.
 They are playing.
-Evaluation Metrics
 
-The system can be evaluated using:
+## Evaluation Metrics
 
+# The system can be evaluated using:
 Accuracy
 Precision
 Recall
@@ -98,6 +98,7 @@ Evaluation is performed using the JFLEG Grammar Correction Dataset.
 3. Add multiple language support
 4. Deploy application online
 5. Add user login system
+
 ### Author
 
 Partha Sarathi Sarkar
